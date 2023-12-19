@@ -1,10 +1,35 @@
-# Ignore Unity generated Library folder
-Library/
+# Unity specific files/directories to ignore
 
-# Ignore macOS system files
+# Compiled and auto-generated files
+Library/
+Temp/
+obj/
+Build/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Cache and meta-data files
+*.meta
+Thumbs.db
 .DS_Store
 
-# Ignore compiled files
-*.exe
-*.dll
-*.dylib
+# Visual Studio files (if using Visual Studio as the IDE)
+.vs/
+
+# Miscellaneous system files
+*.DS_Store
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
