@@ -1,0 +1,10 @@
+# Ignore Unity generated Library folder
+Library/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore compiled files
+*.exe
+*.dll
+*.dylib
